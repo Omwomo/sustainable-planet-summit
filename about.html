@@ -10,44 +10,46 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-        <header>
-            <nav class="navbar justify-content-center">
+        <header class="mobile mobile-navs">
+            <nav class="navbar-nav d-flex flex-nowrap flex-row justify-content-start" id="mobile-nav">
                 <div class="nav-link">
                     <a class="nav-link"><img src="imgs/mobile_menu 1.jpg"></a>
                 </div>
-                <div class="navbar nav">
+                <div class="navbar-nav">
                     <img class="navbar brand" src="imgs/logo.jpg">
                 </div>
             </nav>
         </header>
-        <header>
-            <nav class="navbar justify-content-end">
-                <ul class="navbar nav">
-                    <li class="nav-item"><img src="#"></li>
-                    <li class="nav-item"><img src="#"></li>
-                    <li class="nav-item">English</li>
-                    <li class="nav-item">My Page</li>
-                    <li class="nav-item">Logout</li>
+        <header class="desktop desktop-header">
+            <nav class="top-nav">
+                <ul class="navbar nav gap-3">
+                    <li class="top-nav-imgs"><img src="imgs/Rectangle.png"></li>
+                    <li class="top-nav-imgs"><img src="imgs/twitter.png"></li>
+                    <li class="nav-item top-navs">English</li>
+                    <li class="nav-item top-navs">My Page</li>
+                    <li class="nav-item top-navs">Logout</li>
                 </ul>
             </nav>
-            <nav class="navbar">
+            <nav class="navbar flex-nowrap navbar-expand-md" id="main-nav">
                 <div class="container-fluid">
-                    <div class="navbar nav">
-                        <a class="navbar brand">My Logo</a>
+                    <div class="navbar nav pr-5 logo">
+                        <a class="navbar brand"><img src="imgs/logo.jpg"></a>
                     </div>
-                    <ul class="navbar nav">
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <ul class="navbar-nav flex-nowrap" id="navigation">
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Program</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Join</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Sponser</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">News</a></li>
                     </ul>
-                    <div class="navbar nav">
-                        <a class="navbar brand">CC Campaign</a>
+                    <div class="navbar nav pr-5" id="campaign">
+                        <a class="navbar brand campaign" id="campaign-text">CC Campaign</a>
                     </div>
                 </div>
             </nav>
-            <nav class="navbar justify-content-end">
+        </header>
+        <section id="headline">
+            <nav class="navbar justify-content-end" id="desktop">
                 <ul class="navbar nav">
                     <li class="nav-item"><img src="#"></li>
                     <li class="nav-item"><img src="#"></li>
@@ -56,8 +58,6 @@
                     <li class="nav-item"><img src="#"></li>
                 </ul>
             </nav>
-        </header>
-        <section id="headline">
             <div class="container-md">
                 <span>"Hello sharing world"</span>
                 <h1>CREATIVE COMMONS <br> GLOBAL SUMMIT <br> 2015</h1>
@@ -125,12 +125,12 @@
 
         <section id="footer">
             <div class="container-fluid">
-                <ul class="row flex-wrap">
-                    <li class="list-item col"><img src="#"></li>
-                    <li class="list-item col"><img src="#"></li>
-                    <li class="list-item col"><img src="#"></li>
-                    <li class="list-item col"><img src="#"></li>
-                    <li class="list-item col"><img src="#"></li>
+                <ul class="row flex-wrap justify-content-center">
+                    <li class="list-item col"><img src="imgs/mozilla 1.png"></li>
+                    <li class="list-item col"><img src="imgs/googlekorea 1.png"></li>
+                    <li class="list-item col"><img src="imgs/naver 1.png"></li>
+                    <li class="list-item col"><img src="imgs/daumkakaologo 1.png"></li>
+                    <li class="list-item col"><img src="imgs/airbnb 1.png"></li>
                 </ul>
             </div>
             <div class="container-fluid row">
