@@ -1,0 +1,2 @@
+sass styles/main.scss styles/main.css
+npx stylelint "**/*.{css,scss}"
