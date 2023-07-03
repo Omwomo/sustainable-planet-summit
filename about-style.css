@@ -1,8 +1,9 @@
 @import url(style.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400&display=swap');
 
 @media (max-width: 765px) {
   .about-mobile-headline {
-    background: url(imgs/abt-mb-intro-bg.png) #f7f7f8 no-repeat;
+    background: url("imgs/bg-6.jpg") #f7f7f8 no-repeat;
     background-size: cover;
   }
 
@@ -283,9 +284,9 @@
   }
 
   #headline-about {
-    background: url("imgs/desktop-abt-bg-img.png");
+    background: url("imgs/bg-6.jpg");
     background-color: rgb(240, 239, 239);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 6.8125rem 15.6875rem;
     align-items: center;

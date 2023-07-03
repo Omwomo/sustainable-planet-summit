@@ -50,13 +50,15 @@
   <ul>
     <li><a href="https://html.com/">HTML</a></li>
     <li><a href="https://css.org/">CSS</a></li>
+    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+    <li><a href="https://javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="#">N/A</a></li>
+    <li><a href="https://javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -73,9 +75,12 @@
 
 > Description of the project key features.
 
-- **[key_feature_1]**It has an html and css files.
-- **[key_feature_2]**Microverse's html and css lints has been correctly configured in the project.
-- **[key_feature_3]**Github workflow has been properly adhered to in this project.
+- It entails html, css javascript and bootstrap languanges.
+- Microverse's html, css and javascript lints has been correctly configured in the project.
+- Github workflow has been properly adhered to in this project.
+- The project has a landing page for the global climate summit of 2023 and about page.
+- Featured speakers section has been generated dynamically using JavaScript.
+- Humburger button in the mobile version when clicked displays the menu list which when clicked leads to the corresponding sections and pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +119,7 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  cd my-folderfirst-microverse-project
+  cd eugo-sustainable-planet-summit
   git clone https://github.com/Omwomo/my-first-microverse-project.git
 ```
 
@@ -125,7 +130,7 @@ Install this project with:
 
 
 ```sh
-  cd my-first-microverse-project
+  cd eugo-sustainable-planet-summit
   gem install
 ```
 
@@ -171,8 +176,9 @@ To run tests, run the following command:
 
 > Description of future features that will be added to the project.
 
-- [ ] **[new_feature_1]**Add more sections in the html.
-- [ ] **[new_feature_2]**Add more styling to have an intresting page.
+- Add ticket page and schedule page.
+- Create advanced data base for storage of the ticket page data.
+- Generate the schedule dynamically.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,7 +208,7 @@ If you like this project you can contribute to it since it's an open source proj
 
 > Credit to people who inspired my codebase.
 
-I would like to thank the Microverse team for the detailed guidance on this project.
+I would like to give credit to Cindy Shin in behance for authoring a great design and getting an opportunity to work on the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

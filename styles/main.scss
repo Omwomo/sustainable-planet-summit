@@ -1,0 +1,71 @@
+/* @import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/utilities';
+
+@import 'components/header';
+@import 'components/buttons';
+
+$black: #272a31;
+$maroon: #ec5242;
+$grey: #d3d3d3;
+$font-family: 'lato', sans-serif;
+
+body {
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .top-nav {
+    background: $black;
+    display: flex;
+    height: 1.875rem;
+    padding: 0rem 11.875rem 0rem 0rem;
+    gap: 3.25rem;
+    flex-shrink: 0;
+    align-self: stretch;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    position: fixed;
+  }
+
+  .top-nav.nav-item {
+    gap: 1.25rem;
+    font-size: 0.3rem;
+  }
+
+  .top-navs {
+    color: #fff;
+    font-size: 0.75rem;
+    font-family: 'lato', sans-serif;
+  }
+
+  .top-nav-imgs img {
+    height: 0.9rem;
+    padding-bottom: 10%;
+  }
+
+  .main-nav {
+    display: flex;
+    height: 4.6875rem;
+    padding: 0rem 12.375rem 0rem 13.0625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 14.5rem;
+    flex-shrink: 0;
+    align-self: stretch;
+  }
+  #headline {
+    background-image: url("imgs\mobile-intro-background.png")
+  }
+} */
