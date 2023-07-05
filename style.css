@@ -21,9 +21,8 @@ body {
 
   #mobile-nav {
     display: flex;
-    padding: 0.375rem 7.625rem 0.375rem 1.4375rem;
+    padding: 0.375rem 3.625rem 0.375rem 1.4375rem;
     align-items: center;
-    gap: 40%;
     background: #fff;
     box-shadow: 4px 4px 4px 0.01px rgba(0, 0, 0, 0.25);
     width: 100%;
@@ -44,7 +43,7 @@ body {
 
   .top-nav-imgs img {
     height: 0.9rem;
-    padding-right: 1rem;
+    margin-right: 1rem !important;
   }
 
   .popup-items img {
@@ -57,11 +56,14 @@ body {
   #mobile-nav .mobile-menu img {
     height: 1.5rem;
     width: 1.5rem;
+    margin-right: 7rem;
   }
 
   #mobile-nav .mobile-logo img {
     height: 3rem;
     width: 40vw;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .mobile-navs {

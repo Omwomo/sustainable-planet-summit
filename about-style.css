@@ -146,7 +146,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5625rem;
+    margin: 1.5625rem;
     padding: 10%;
   }
 
@@ -166,6 +166,7 @@
     background-size: contain;
     color: #fff;
     background-image: url(imgs/summit-1.jpg);
+    background-repeat: no-repeat;
     opacity: 0.8;
     position: relative;
   }
