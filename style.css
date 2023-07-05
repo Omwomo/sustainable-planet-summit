@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400&display=swap');
-
+@import url(about-style.css);
 body {
   background-color: #fff;
   font-family: 'lato', sans-serif !important;
@@ -8,6 +8,10 @@ body {
 @media (max-width: 768px) {
   .desktop {
     display: none !important;
+  }
+
+  .mobile {
+    display: flex !important;
   }
 
   #desktop {
@@ -23,16 +27,17 @@ body {
     box-shadow: 4px 4px 4px 0.01px rgba(0, 0, 0, 0.25);
     width: 100%;
     flex-wrap: nowrap;
-    height: 10vh;
+    height: 7vh;
+    margin: 0;
   }
 
-  #mobile-nav .mobile-menu {
-    height: 9.5vw;
-    width: 8vw;
+  #mobile-nav .mobile-menu img {
+    height: 1.5rem;
+    width: 1.5rem;
   }
 
-  #mobile-nav .mobile-logo {
-    height: 9.5vw;
+  #mobile-nav .mobile-logo img {
+    height: 3rem;
     width: 40vw;
   }
 
@@ -40,7 +45,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 9999;
-    height: 4rem;
+
   }
 
   .mobile-headline {
@@ -374,7 +379,7 @@ body {
   }
 
   .top-nav.nav-item {
-    gap: 1.25rem;
+    padding-left: 1.25rem;
     font-size: 0.3rem;
   }
 
@@ -385,6 +390,7 @@ body {
 
   .top-nav-imgs img {
     height: 0.9rem;
+    padding-right: 1rem;
   }
 
   .show-menu.popup-menu {
@@ -432,14 +438,14 @@ body {
   }
 
   #main-nav {
-    height: 4.3875rem;
+    height: 3rem;
     background-color: #fff;
     padding-right: 12%;
     padding-left: 6%;
   }
 
   .navbar .logo img {
-    height: 3.5vw;
+    height: 2.8rem;
     width: 20vw;
   }
 
@@ -565,6 +571,7 @@ body {
   #program-cards {
     padding-left: 10%;
     padding-right: 10%;
+    flex-wrap: nowrap;
   }
 
   .card-item {

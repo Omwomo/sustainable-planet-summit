@@ -157,7 +157,7 @@
     letter-spacing: -0.00625rem;
   }
 
-  .previous-images .card {
+  .previous-images .c {
     border-radius: 0;
     height: 40vw;
     justify-content: center;
@@ -170,7 +170,7 @@
     position: relative;
   }
 
-  .previous-images .card::before {
+  .previous-images .c::before {
     content: "";
     position: absolute;
     top: 0;
@@ -180,8 +180,8 @@
     background-color: rgba(255, 0, 0, 0.5);
   }
 
-  .previous-images .card h2,
-  .previous-images .card p {
+  .previous-images .c h2,
+  .previous-images .c p {
     position: relative;
     z-index: 1;
   }
@@ -401,7 +401,7 @@
     letter-spacing: -0.00625rem;
   }
 
-  .previous-images .card {
+  .previous-images .c {
     border-radius: 0;
     height: 20vw;
     justify-content: center;
@@ -409,12 +409,12 @@
     background-color: rgba(255, 0, 0, 1);
     background-size: contain;
     color: #fff;
-    background-image: url(imgs/summit-1.jpg);
+    background-image: url(imgs/summit-1.jpg) no-repeat;
     opacity: 0.8;
     position: relative;
   }
 
-  .previous-images .card::before {
+  .previous-images .c::before {
     content: "";
     position: absolute;
     top: 0;
@@ -424,8 +424,8 @@
     background-color: rgba(255, 0, 0, 0.5);
   }
 
-  .previous-images .card h2,
-  .previous-images .card p {
+  .previous-images .c h2,
+  .previous-images .c p {
     position: relative;
     z-index: 1;
   }

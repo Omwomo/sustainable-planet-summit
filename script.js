@@ -50,38 +50,38 @@ function generateSpeakersContent() {
     {
       image: 'imgs/speaker-1.png',
       speakerName: 'Eugene Oduor',
-      proffesions: 'Fullstack developer in mean stack with 5 yeras ecperience',
-      speech: 'Lanuages include, HTML, CSS JavaScript, bootstrap, SCSS, Ruby  on rails, Node.js, React.',
+      proffesions: 'Fullstack developer in MERN stack with 1 year experience',
+      speech: 'Languages include, HTML, CSS JavaScript, bootstrap, SCSS, Ruby  on rails, Node.js, React, SQL.',
+    },
+    {
+      image: 'imgs/speaker-1.png',
+      speakerName: 'Eugene Ofafa',
+      proffesions: 'Fullstack developer in MERN stack with 1 year experience',
+      speech: 'Languages include HTML, CSS JavaScript, bootstrap, SCSS, Ruby  on rails, Node.js, React, SQL.',
+    },
+    {
+      image: 'imgs/speaker-1.png',
+      speakerName: 'Eugene Omwomo',
+      proffesions: 'Fullstack developer in MERN stack with 1 year experience',
+      speech: 'Languages include HTML, CSS JavaScript, bootstrap, SCSS, Ruby  on rails, Node.js, React, SQL.',
     },
     {
       image: 'imgs/speaker-1.png',
       speakerName: 'Eugene Oduor',
-      proffesions: 'Fullstack developer in mean stack with 5 yeras ecperience',
-      speech: 'Lanuages include, HTML, CSS JavaScript, bootstrap, SCSS, Ruby  on rails, Node.js, React.',
+      proffesions: 'Fullstack developer in MERN stack with 1 year experience',
+      speech: 'Languages include HTML, CSS JavaScript, Bootstrap, SCSS, Ruby  on rails, Node.js, React, SQL.',
     },
     {
       image: 'imgs/speaker-1.png',
       speakerName: 'Eugene Oduor',
-      proffesions: 'Fullstack developer in mean stack with 5 yeras ecperience',
-      speech: 'Lanuages include, HTML, CSS JavaScript, bootstrap, SCSS, Ruby  on rails, Node.js, React.',
+      proffesions: 'Fullstack developer in MERN stack with 1 year experience',
+      speech: 'Languages include HTML CSS JavaScript, Bootstrap, SCSS, Ruby  on rails, Node.js, React, SQL.',
     },
     {
       image: 'imgs/speaker-1.png',
       speakerName: 'Eugene Oduor',
-      proffesions: 'Fullstack developer in mean stack with 5 yeras ecperience',
-      speech: 'Lanuages include, HTML, CSS JavaScript, bootstrap, SCSS, Ruby  on rails, Node.js, React.',
-    },
-    {
-      image: 'imgs/speaker-1.png',
-      speakerName: 'Eugene Oduor',
-      proffesions: 'Fullstack developer in mean stack with 5 yeras ecperience',
-      speech: 'Lanuages include, HTML, CSS JavaScript, bootstrap, SCSS, Ruby  on rails, Node.js, React.',
-    },
-    {
-      image: 'imgs/speaker-1.png',
-      speakerName: 'Eugene Oduor',
-      proffesions: 'Fullstack developer in mean stack with 5 yeras ecperience',
-      speech: 'Lanuages include, HTML, CSS JavaScript, bootstrap, SCSS, Ruby  on rails, Node.js, React.',
+      proffesions: 'Fullstack developer in MERN stack with 1 year experience',
+      speech: 'Languages include HTML, CSS JavaScript, Bootstrap, SCSS, Ruby  on rails, Node.js, React, SQL.',
     },
   ];
 
