@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400&display=swap');
 @import url(about-style.css);
+
 body {
   background-color: #fff;
   font-family: 'lato', sans-serif !important;
@@ -31,6 +32,28 @@ body {
     margin: 0;
   }
 
+  .speakers img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .more img {
+    width: 1.5rem;
+    padding-left: 3%;
+  }
+
+  .top-nav-imgs img {
+    height: 0.9rem;
+    padding-right: 1rem;
+  }
+
+  .popup-items img {
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    width: 1.5rem;
+  }
+
   #mobile-nav .mobile-menu img {
     height: 1.5rem;
     width: 1.5rem;
@@ -45,7 +68,6 @@ body {
     position: sticky;
     top: 0;
     z-index: 9999;
-
   }
 
   .mobile-headline {
@@ -262,11 +284,6 @@ body {
     gap: 1rem;
   }
 
-  .speakers img {
-    width: 100%;
-    height: 100%;
-  }
-
   .speakers .images {
     width: 40%;
   }
@@ -318,11 +335,6 @@ body {
     padding-top: 3%;
   }
 
-  .more img {
-    width: 1.5rem;
-    padding-left: 3%;
-  }
-
   .footer-div {
     padding-top: 7%;
     width: 80%;
@@ -348,13 +360,6 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-  }
-
-  .popup-items img {
-    position: absolute;
-    top: 8%;
-    right: 8%;
-    width: 1.5rem;
   }
 
   .popup-menu .popup-list {
@@ -386,11 +391,6 @@ body {
   .top-navs {
     color: #fff;
     font-size: 0.75rem;
-  }
-
-  .top-nav-imgs img {
-    height: 0.9rem;
-    padding-right: 1rem;
   }
 
   .show-menu.popup-menu {
