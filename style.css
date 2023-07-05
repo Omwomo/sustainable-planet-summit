@@ -283,11 +283,11 @@ body {
     padding-right: 5%;
     padding-bottom: 5%;
     width: 100%;
-    gap: 1rem;
   }
 
   .speakers .images {
     width: 40%;
+    margin-right: 1rem;
   }
 
   .speaker-texts {
@@ -356,9 +356,10 @@ body {
     position: absolute;
   }
 
-  .popup-menu .popup-items {
+  .popup-items {
     background-color: rgb(88, 45, 45);
-    gap: 5%;
+    padding-top: 7rem;
+    padding-right: 10%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -367,7 +368,7 @@ body {
   .popup-menu .popup-list {
     list-style: none;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     justify-content: center;
     text-align: center;
     padding-top: 5%;
@@ -393,6 +394,7 @@ body {
   .top-navs {
     color: #fff;
     font-size: 0.75rem;
+    padding-right: 1rem;
   }
 
   .show-menu.popup-menu {
