@@ -165,7 +165,7 @@ To run tests, run the following command:
 
 - GitHub: [@githubhandle](https://github.com/Omwomo)
 - Twitter: [@twitterhandle](https://twitter.com/eugeneoduor9)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/Omwomo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/eugene-oduor-938812267/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -216,7 +216,7 @@ I would like to give credit to Cindy Shin in behance for authoring a great desig
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](MIT.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
